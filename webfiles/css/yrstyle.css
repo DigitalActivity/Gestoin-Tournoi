@@ -1,0 +1,55 @@
+/**
+ * CSS style pout le projet Gestion de tournoi en php
+ */
+
+
+form {
+    padding : 10px;
+    margin : 5px;
+    border : groove 2px #222222;
+    background-color: rgba(206, 208, 213, 0.66);
+}
+
+table.matches-table  {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    float: none;
+}
+
+.matches-table table, .matches-table td, .matches-table th {
+    border: 2px solid black;
+    text-align:center;
+}
+
+.matches-table td {
+    padding: 5px;
+}
+
+.win {
+    background-color: #a7ff48;
+}
+
+.lost {
+    background-color: #ff6747;
+}
+
+.draw {
+    background-color: #a5b2b1;
+}
+
+.score {
+    background-color: #d9e6e5;
+}
+
+#receveurs {
+    background-color: rgba(59, 235, 255, 0.95);
+    border : groove 1px #b4b4b4;
+    padding: 5px;
+}
+
+#visiteurs {
+    background-color: rgba(253, 255, 0, 0.57);
+    border : groove 1px #b4b4b4;
+    padding: 5px;
+}
